@@ -1,0 +1,57 @@
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python-version
+
+# --- DISTRIBUTION / PACKAGING ---
+.eggs/
+*.egg-info/
+build/
+dist/
+
+# --- VIRTUAL ENV & TOOLING ---
+.venv/
+venv/
+env/
+ENV/
+.uv/
+
+# --- SECURITY & CONFIG ---
+.env
+.env.*
+!.env.example
+
+# --- DATABASE & STORAGE ---
+*.db
+*.sqlite3
+*.sqlite3-journal
+uploads/
+media/
+*.log
+
+# --- TESTING, LINTING & COVERAGE ---
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+pytest.xml
+
+# --- IDE, AI TOOLS & OS ---
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+.cursorignore
+.cursorindexingignore
+
+# --- DOCKER ---
+*.sql
+*.tar.gz
